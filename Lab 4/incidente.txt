@@ -1,0 +1,22 @@
+=== RELATÓRIO DE INCINDENTE - SESSÃO 4 ===
+Data: Thu Jul  9 06:15:30 PM -01 2026
+Analista: student
+
+--- DIAGNÓSTICO: PROCESSOS ---
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+student      8  0.0  0.0  15512  2764 tty1     S    Jul06   0:03 -bash
+root         1  0.0  0.0   9104   400 ?        Ssl  Jul06   0:01 /init
+root        40  0.0  0.0 158052   668 ?        Ssl  Jul06   0:00 rsyslogd
+student   3209  0.0  0.0  17428  2612 tty1     R    18:18   0:00 ps aux --sort=-%cpu
+root         7  0.0  0.0   8952   132 tty1     Ss   Jul06   0:00 /init
+student   3210  0.0  0.0  13620   828 tty1     S    18:18   0:00 head -10
+--- AÇÕES TOMADAS ---
+1. Processo identificado: PID=__________ Comando=_____
+2. SIGTERM enviado: kill PID -> processo terminado normalmente
+3. SIGKILL enviado: kill -9 PID -> foi criado um novo processo para testar o SIGKILL (kill -9)
+--- LOGS DE AUTENTICAÇÃO ---
+2026-07-09T17:55:05.977729-01:00 DESKTOP-N6BFP6H sudo:  student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/grep Failed\\|Invalid\\|FAILED /var/log/auth.log
+2026-07-09T17:55:50.109641-01:00 DESKTOP-N6BFP6H sudo:  student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/grep Failed\\|Invalid /var/log/auth.log
+2026-07-09T18:03:34.263823-01:00 DESKTOP-N6BFP6H sudo:  student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/grep Failed\\|Invalid /var/log/auth.log
+2026-07-09T18:04:38.291177-01:00 DESKTOP-N6BFP6H sudo:  student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/grep Failed\\|Invalid /var/log/auth.log
+2026-07-09T18:29:54.366363-01:00 DESKTOP-N6BFP6H sudo:  student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/grep Failed /var/log/auth.log
