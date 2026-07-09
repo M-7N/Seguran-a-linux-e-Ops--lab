@@ -1,0 +1,34 @@
+======================================
+RELATÓRIO DE AUDITORIA - CVTECH Lda.
+======================================
+Data: Thu Jul  9 02:04:08 AM -01 2026
+
+--- ESTRUTURA DE DIRECTÓRIOS ---
+/home/student/relatorios/sessao1/empresa/
+├── financas
+│   ├── backup
+│   │   └── orcamento_bak.txt
+│   └── orcamento_2026.txt
+├── financas_backup_jun2026
+│   ├── backup
+│   │   └── orcamento_bak.txt
+│   └── orcamento_2026.txt
+├── rh
+│   ├── arquivo_2026
+│   │   └── relatorio_jan.txt
+│   ├── contrato_alice_v1.txt
+│   └── relatorio_fev.txt
+└── ti
+    ├── config.log
+    ├── deploy.sh
+    └── erros.log
+
+8 directories, 10 files
+
+--- ERRO NOS LOGS DE TI ---
+2026-06-20 09:05 ERRO falha de conexão DB
+2026-06-20 09:15 ERRO timeout na API REST 30s
+2026-06-20 09:25 ERRO autenticação falhou para user admin
+
+--- TOTAL DE FICHEIROS ---
+10
