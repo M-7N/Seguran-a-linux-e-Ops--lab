@@ -1,0 +1,26 @@
+=== AUDITORIA LINUX - SESSÃO 1 ===
+Data: Wed Jul 8 07:45:18 PM -01 2026
+--- SISTEMA ---
+Linux DESKTOP-N6BFP6H 4.4.0-19041-Microsoft #5794-Microsoft Mon Apr 07 17:55:00 PST 2025 x86_64 GNU/Linux
+--- /ETC CRITICO ---
+-rw-r----- 1 root shadow   552 Jul  6 17:53 gshadow
+-rw-r----- 1 root shadow   517 Jul  6 17:53 gshadow-
+-rw-r--r-- 1 root root    1093 Jul  6 17:51 passwd
+-rw-r--r-- 1 root root    1048 May 16 12:32 passwd-
+-rw-r----- 1 root shadow   654 Jul  6 17:53 shadow
+-rw-r----- 1 root shadow   553 May 16 12:32 shadow-
+-r--r----- 1 root root    1714 Apr 11 11:21 sudoers
+drwxr-xr-x 1 root root     512 May 16 12:32 sudoers.d
+--- /VAR/LOG ---
+total 32K
+drwxr-xr-x 1 root root             512 Jul  8 06:50 apt
+-rw-r----- 1 root adm             1.6K Jul  8 06:50 auth.log
+-rw-rw---- 1 root utmp               0 May 16 12:31 btmp
+-rw-r--r-- 1 root root             13K Jul  8 06:50 dpkg.log
+drwxr-sr-x 1 root systemd-journal  512 May 16 12:31 journal
+-rw-rw-r-- 1 root utmp               0 May 16 12:31 lastlog
+drwx------ 1 root root             512 May 16 12:31 private
+lrwxrwxrwx 1 root root              39 May 16 12:31 README -> ../../usr/share/doc/systemd/README.logs
+-rw-r----- 1 root adm              909 Jul  6 18:24 syslog
+-rw-r----- 1 root adm              195 Jul  6 18:24 user.log
+-rw-rw-r-- 1 root utmp               0 May 16 12:31 wtmp
