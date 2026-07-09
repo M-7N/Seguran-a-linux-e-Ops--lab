@@ -13,10 +13,10 @@ Ao longo deste módulo foram desenvolvidas competências práticas em administra
 
 | Laboratório | Descrição |
 |-------------|-----------|
-| Lab 01 | Exploração da Arquitetura Linux e Auditoria Inicial |
-| Lab 02 | Gestão de Ficheiros e Manipulação de Dados |
-| Lab 03 | Gestão de Utilizadores, Grupos e Permissões |
-| Lab 04 | Processos, Serviços e Monitorização do Sistema |
+| Lab 1 | Exploração da Arquitetura Linux e Auditoria Inicial |
+| Lab 2 | Gestão de Ficheiros e Manipulação de Dados |
+| Lab 3 | Gestão de Utilizadores, Grupos e Permissões |
+| Lab 4 | Processos, Serviços e Monitorização do Sistema |
 | Sessão 6 | Desafio Integrado (CVTECH CTF) |
 ## Ferramentas utilizadas
 Debian
